@@ -36,5 +36,5 @@ jobs:
       uses: actions/upload-artifact@master
       if: always()
       with:
-        name: ShinColle
+        name: GroovyScript
         path: ${{ github.workspace }}/build/libs
